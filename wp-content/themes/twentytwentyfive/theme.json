@@ -1,0 +1,276 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "border": {
+      "radius": true,
+      "color": true,
+      "style": true,
+      "width": true
+    },
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        {
+          "slug": "ar-color-neutral-05",
+          "color": "#232F3A",
+          "name": "Neutral 05 (Darkest)"
+        },
+        {
+          "slug": "ar-color-neutral-04",
+          "color": "#53708A",
+          "name": "Neutral 04"
+        },
+        {
+          "slug": "ar-color-neutral-03",
+          "color": "#6A8EB0",
+          "name": "Neutral 03"
+        },
+        {
+          "slug": "ar-color-neutral-02",
+          "color": "#8CBDEB",
+          "name": "Neutral 02"
+        },
+        {
+          "slug": "ar-color-neutral-01",
+          "color": "#BFE0FF",
+          "name": "Neutral 01 (Light)"
+        },
+        {
+          "slug": "ar-color-neutral-00",
+          "color": "#FFFCFC",
+          "name": "Neutral 00 (Lightest)"
+        },
+        {
+          "slug": "ar-color-primary-05",
+          "color": "#2E3A69",
+          "name": "Primary 05"
+        },
+        {
+          "slug": "ar-color-primary-04",
+          "color": "#4A5DAA",
+          "name": "Primary 04"
+        },
+        {
+          "slug": "ar-color-primary-03",
+          "color": "#5E77D9",
+          "name": "Primary 03"
+        },
+        {
+          "slug": "ar-color-primary-02",
+          "color": "#6F8BFF",
+          "name": "Primary 02"
+        },
+        {
+          "slug": "ar-color-primary-01",
+          "color": "#ADBEFF",
+          "name": "Primary 01"
+        },
+        {
+          "slug": "ar-color-secondary-05",
+          "color": "#630E35",
+          "name": "Secondary 05"
+        },
+        {
+          "slug": "ar-color-secondary-04",
+          "color": "#961550",
+          "name": "Secondary 04"
+        },
+        {
+          "slug": "ar-color-secondary-03",
+          "color": "#BA1A64",
+          "name": "Secondary 03"
+        },
+        {
+          "slug": "ar-color-secondary-02",
+          "color": "#ED227F",
+          "name": "Secondary 02"
+        },
+        {
+          "slug": "ar-color-secondary-01",
+          "color": "#FF70B2",
+          "name": "Secondary 01"
+        }
+      ],
+      "background": true,
+      "text": true,
+      "link": false,
+      "custom": false
+    },
+    "layout": {
+      "contentSize": "90%",
+      "wideSize": "1340px",
+      "sidebarSize": "300px"
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "defaultSpacingSizes": false,
+      "spacingSizes": [
+        {
+          "name": "Tiny",
+          "size": "10px",
+          "slug": "20"
+        },
+        {
+          "name": "X-Small",
+          "size": "20px",
+          "slug": "30"
+        },
+        {
+          "name": "Small",
+          "size": "30px",
+          "slug": "40"
+        },
+        {
+          "name": "Regular",
+          "size": "clamp(30px, 5vw, 50px)",
+          "slug": "50"
+        },
+        {
+          "name": "Large",
+          "size": "clamp(30px, 7vw, 70px)",
+          "slug": "60"
+        },
+        {
+          "name": "X-Large",
+          "size": "clamp(50px, 7vw, 90px)",
+          "slug": "70"
+        },
+        {
+          "name": "XX-Large",
+          "size": "clamp(70px, 10vw, 140px)",
+          "slug": "80"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Trench Slab Variable",
+          "slug": "display-font",
+          "name": "Display Font"
+        },
+        {
+          "fontFamily": "General Sans Variable",
+          "slug": "text-font",
+          "name": "Text Font"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "Tiny",
+          "size": "0.6875rem",
+          "name": "XSmall"
+        },
+        {
+          "slug": "Small",
+          "size": "0.75rem",
+          "name": "Small"
+        },
+        {
+          "slug": "Medium",
+          "size": "1.25rem",
+          "name": "Medium"
+        },
+        {
+          "slug": "Large",
+          "size": "2.25rem",
+          "name": "Large"
+        },
+        {
+          "slug": "XL",
+          "size": "3rem",
+          "name": "XLarge"
+        },
+        {
+          "slug": "XXL",
+          "size": "3.25rem",
+          "name": "XXLarge"
+        }
+      ],
+      "lineHeight": true,
+      "dropCap": true,
+      "fontWeight": true,
+      "fontStyle": true,
+      "textTransform": true,
+      "letterSpacing": true,
+      "textDecoration": true
+    }
+  },
+  "styles": {
+    "spacing": {
+      "margin": {
+        "top": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "right": "0px"
+      },
+      "padding": {
+        "top": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "right": "0px"
+      }
+    },
+    "color": {
+      "text": "var(--wp--preset--color--ar-color-neutral-05)",
+      "background": "var(--wp--preset--color--ar-color-neutral-00)"
+    },
+    "blocks": {
+      "core/pullquote": {
+        "border": {
+          "width": "4px",
+          "radius": "10px",
+          "style": "dotted",
+          "color": "var(--wp--preset--color--ar-color-primary-01)"
+        }
+      },
+      "core/paragraph": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--text-font)",
+          "fontSize": "1rem",
+          "fontWeight": "normal",
+          "lineHeight": "1.5"
+        }
+      },
+      "core/site-title": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--display-font)",
+          "fontSize": "2rem",
+          "fontWeight": "bold"
+        },
+        "color": {
+          "defaultPalette": true,
+          "palette": [
+            {
+              "slug": "ar-color-primary-04",
+              "color": "#4A5DAA",
+              "name": "Primary 04"
+            },
+            {
+              "slug": "ar-color-secondary-05",
+              "color": "#630E35",
+              "name": "Secondary 05"
+            }
+          ],
+          "link": true
+        }
+      },
+      "core/heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--display-font)",
+          "fontSize": "2.25rem",
+          "fontWeight": "bold",
+          "lineHeight": "1.2"
+        }
+      },
+      "core/preformatted": {
+        "typography": {
+          "fontSizes": [],
+          "customFontSizes": false
+        }
+      }
+    }
+  }
+}

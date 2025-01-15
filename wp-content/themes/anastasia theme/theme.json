@@ -1,0 +1,252 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        {
+          "slug": "ar-color-neutral-05",
+          "color": "#232F3A",
+          "name": "Neutral 05 (Darkest)"
+        },
+        {
+          "slug": "ar-color-neutral-04",
+          "color": "#53708A",
+          "name": "Neutral 04"
+        },
+        {
+          "slug": "ar-color-neutral-03",
+          "color": "#6A8EB0",
+          "name": "Neutral 03"
+        },
+        {
+          "slug": "ar-color-neutral-02",
+          "color": "#8CBDEB",
+          "name": "Neutral 02"
+        },
+        {
+          "slug": "ar-color-neutral-01",
+          "color": "#BFE0FF",
+          "name": "Neutral 01 (Light)"
+        },
+        {
+          "slug": "ar-color-neutral-00",
+          "color": "#FFFCFC",
+          "name": "Neutral 00 (Lightest)"
+        },
+        {
+          "slug": "ar-color-primary-05",
+          "color": "#2E3A69",
+          "name": "Primary 05"
+        },
+        {
+          "slug": "ar-color-primary-04",
+          "color": "#4A5DAA",
+          "name": "Primary 04"
+        },
+        {
+          "slug": "ar-color-primary-03",
+          "color": "#5E77D9",
+          "name": "Primary 03"
+        },
+        {
+          "slug": "ar-color-primary-02",
+          "color": "#6F8BFF",
+          "name": "Primary 02"
+        },
+        {
+          "slug": "ar-color-primary-01",
+          "color": "#ADBEFF",
+          "name": "Primary 01"
+        },
+        {
+          "slug": "ar-color-secondary-05",
+          "color": "#630E35",
+          "name": "Secondary 05"
+        },
+        {
+          "slug": "ar-color-secondary-04",
+          "color": "#961550",
+          "name": "Secondary 04"
+        },
+        {
+          "slug": "ar-color-secondary-03",
+          "color": "#BA1A64",
+          "name": "Secondary 03"
+        },
+        {
+          "slug": "ar-color-secondary-02",
+          "color": "#ED227F",
+          "name": "Secondary 02"
+        },
+        {
+          "slug": "ar-color-secondary-01",
+          "color": "#FF70B2",
+          "name": "Secondary 01"
+        }
+      ],
+      "background": true,
+      "text": true,
+      "link": true,
+      "custom": true,
+      "duotone": [
+        { "slug": "ar-cold", "colors": ["#FFFFFF", "#6F8BFF"], "name": "AR Cold" }
+      ],
+      "defaultGradients": false,
+      "gradients": [
+        { "slug": "ar-dark-red", "gradient": "linear-gradient(#FFFFFF, #630E35)", "name": "AR Dark Red" }
+      ]
+    },
+    "blocks": {
+      "core/site-title": {
+        "color": {
+          "defaultPalette": true,
+          "palette": [
+            { "slug": "ar-color-secondary-05", "color": "#630E35", "name": "Secondary 05" },
+            { "slug": "ar-color-primary-04", "color": "#4A5DAA", "name": "Primary 04" }
+          ],
+          "link": true,
+          "custom": false,
+          "gradients": [],
+          "customGradient": false
+        },
+        "typography": {
+         "fontFamilies": [
+            {
+              "fontFamily": "Trench Slab Variable",
+              "slug": "ar-trench-slab",
+              "name": "Trench Slab Variable"
+            }
+          ]
+        }
+      },
+      "core/cover": {
+        "color": {
+          "duotone": [],
+          "customDuotone": false
+        }
+      },
+      "core/preformatted": {
+        "typography": {
+          "fontSizes": [],
+          "customFontSize": false
+        }
+      }
+    },
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "General Sans Variable",
+          "slug": "ar-general-sans",
+          "name": "General Sans"
+        },
+        {
+          "fontFamily": "Trench Slab Variable",
+          "slug": "ar-trench-slab-variable",
+          "name": "Trench Slab Variable"
+        }
+      ],
+      "fontSizes": [
+        { "slug": "tiny", "size": "0.675rem", "name": "Tiny" },
+        { "slug": "small", "size": "0.75rem", "name": "Small" },
+        { "slug": "medium", "size": "1.25rem", "name": "Medium" },
+        { "slug": "large", "size": "2.25rem", "name": "Large" },
+        { "slug": "extra-large", "size": "3rem", "name": "Extra Large" },
+        { "slug": "gigantic", "size": "3.75rem", "name": "Gigantic" }
+      ],
+      "lineHeight": true,
+      "dropCap": true,
+      "fontWeight": true,
+      "fontStyle": true,
+      "textTransform": true,
+      "letterSpacing": true,
+      "textDecoration": true
+    },
+    "layout": {
+     "contentSize": "90%",
+      "wideSize": "1340px"
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "units": [
+        "px", "rem", "vh", "vw", "%"
+      ],
+      "blockGap": true
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "var(--wp--preset--color--ar-color-neutral-05)",
+      "background": "var(--wp--preset--color--ar-color-neutral-00)"
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--ar-color-neutral-03)"
+        }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "gradient": "var(--wp--preset--gradient--ar-dark-red)"
+        }
+      },
+      "core/pullquote": {
+        "border": {
+          "width": "2px",
+          "radius": "10px",
+          "style": "solid",
+          "color": "var(--wp--preset--color--ar-color-secondary-04)"
+        }
+      },
+      "core/site-title": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--ar-trench-slab-variable)"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--ar-general-sans)",
+      "fontSize": "16px",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "lineHeight": "inherit",
+      "textDecoration": "none",
+      "textTransform": "none"
+    },
+    "spacing": {
+      "margin": {
+        "top": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "right": "0px"
+      },
+      "padding": {
+        "top": "0px",
+        "bottom": "0px",
+        "left": "0px",
+        "right": "0px"
+      },
+      "blockGap": "4rem"
+    }
+  }, 
+  "customTemplates": [
+    {
+      "name": "full-width-page",
+      "title": "Full Width Page",
+      "postTypes" :[
+        "page"
+      ]
+    }
+  ]
+}
